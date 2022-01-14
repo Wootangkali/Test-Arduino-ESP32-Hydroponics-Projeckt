@@ -1,0 +1,11 @@
+下载地址：
+0x0:	bootloader.bin
+0x8000:	partition-table.bin
+0x10000:	ssc.bin
+
+分别输入以下指令连接CMW500：
+bqb -z set_ble_tx_power -i 9
+bqb -z init
+
+UART1切换指令：
+bqb -z set_uart_pin -t [TX_pin] -r [RX_pin] -q [RTS_pin] -c [CTS_pin]

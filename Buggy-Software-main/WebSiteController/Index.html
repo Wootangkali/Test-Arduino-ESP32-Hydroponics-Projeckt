@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: #000000;
+            padding: 10px;
+        }
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 0px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .button {
+            width:100%;
+            height:100%;
+            padding: 20px;
+            display:block;
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+
+        var waterxValue = 0;
+        var soundxValue = 0;
+        var waterYValue = 0;
+        var soundYValue = 0;
+
+        window.onload = function() {
+
+            var waterDataPoints = [];
+            var soundDataPoints = [];
+
+            var waterChart = new CanvasJS.Chart("waterChartContainer", {
+                theme: "light2",
+                title: {
+                    text: "Water Sensor Data"
+                },
+                data: [{
+                    type: "line",
+                    dataPoints: waterDataPoints
+                }]
+            });
+            var soundChart = new CanvasJS.Chart("soundChartContainer", {
+                theme: "light2",
+                title: {
+                    text: "Sound Sensor Data"
+                },
+                data: [{
+                    type: "line",
+                    dataPoints: soundDataPoints
+                }]
+            });
+            updateData();
+
+// Initial Values
+
+
+            function addWaterData(value) {
+                if(waterxValue > 100) {
+                    waterDataPoints.shift();
+                }
+                waterDataPoints.push({x: waterxValue, y: parseInt(value)});
+                waterxValue++;
+
+                waterChart.render();
+            }
+            function addSoundData(value) {
+                if(soundxValue > 100) {
+                    soundDataPoints.shift();
+                }
+                soundDataPoints.push({x: soundxValue, y: parseInt(value)});
+                soundxValue++;
+
+                soundChart.render();
+            }
+
+            function updateData() {
+                if (soundYValue != 0) {
+                addWaterData(waterYValue);
+                addSoundData(soundYValue);
+                }
+                setTimeout(updateData, 20);
+            }
+
+        }
+    </script>
+
+    <script>
+        var url = "ws://192.168.0.165:443/";
+
+
+
+        function init() {
+            $("#connection").css("background-color","Red");
+            wsConnect(url);
+        }
+
+        // Call this to connect to the WebSocket server
+        function wsConnect(url) {
+
+            // Connect to WebSocket server
+            websocket = new WebSocket(url);
+
+            // Assign callbacks
+            websocket.onopen = function(evt) { onOpen(evt) };
+            websocket.onclose = function(evt) { onClose(evt) };
+            websocket.onmessage = function(evt) { onMessage(evt) };
+            websocket.onerror = function(evt) { onError(evt) };
+        }
+
+        // Called when a WebSocket connection is established with the server
+        function onOpen(evt) {
+            console.log("Connected");
+            $("#connection").css("background-color","Green");
+        }
+
+        // Called when the WebSocket connection is closed
+        function onClose(evt) {
+            console.log("Disconnected");
+            $("#connection").css("background-color","Red");
+            setTimeout(function() { wsConnect(url) }, 2000);
+        }
+
+        var serverTimeoutCount;
+
+        // Called when a message is received from the server
+        function onMessage(evt) {
+            clearTimeout(serverTimeoutCount);
+            console.log("Received: " + evt.data);
+            if(evt.data.includes("Water")){
+                $("#connection").css("background-color","Green");
+                var dataArray = evt.data.split(" ");
+                var water = parseInt(dataArray[1]);
+                var sound = parseInt(dataArray[3]);
+                waterYValue = water;
+                soundYValue = sound;
+                serverTimeoutCount = setTimeout(serverTimeout, 3000)
+            }
+        }
+        function serverTimeout(){
+            $("#connection").css("background-color","Red");
+            waterYValue = 0;
+            soundYValue = 0;
+        }
+
+        // Called when a WebSocket error occurs
+        function onError(evt) {
+            $("#connection").css("background-color","Red");
+            console.log("ERROR: " + evt.data);
+        }
+
+        // Sends a message to the server (and prints it to the console)
+        function Send(message) {
+            console.log("Sending: " + message);
+            websocket.send(message);
+        }
+
+        // Call the init function as soon as the page loads
+        window.addEventListener("load", init, false);
+
+        $(document).ready(function(){
+            $(".button").click(function(){
+                let val = $(this).val();
+                Send(val);
+            });
+        });
+
+
+
+    </script>
+
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item"><button id="connection" class="button" >Connected</button></div>
+    <div class="grid-item"><button id="forward" class="button" value="forward">Forward</button></div>
+    <div class="grid-item"><button id="Toggle" class="button" value="toggleWaterSensor">Toggle Water Sensor</button></div>
+    <div class="grid-item"><button id="left" class="button" value="left">Left</button></div>
+    <div class="grid-item"><button id="stop" class="button" value="stop">Stop</button></div>
+    <div class="grid-item"><button id="right" class="button" value="right">Right</button></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"><button id="backward" class="button" value="backward">Backwards</button></div>
+    <div class="grid-item"></div>
+
+
+</div>
+
+<div id="waterChartContainer" style="height: 300px; width: 100%;"></div>
+<div id="soundChartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+</body>
+</html>

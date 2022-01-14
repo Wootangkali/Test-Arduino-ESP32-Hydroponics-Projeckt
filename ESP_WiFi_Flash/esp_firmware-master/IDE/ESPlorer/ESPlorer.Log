@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-04T06:34:33.817592900Z</date>
+  <millis>1641278073817</millis>
+  <nanos>592900</nanos>
+  <sequence>5</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:33.833189700Z</date>
+  <millis>1641278073833</millis>
+  <nanos>189700</nanos>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:33.864853300Z</date>
+  <millis>1641278073864</millis>
+  <nanos>853300</nanos>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:33.912181200Z</date>
+  <millis>1641278073912</millis>
+  <nanos>181200</nanos>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:33.927813800Z</date>
+  <millis>1641278073927</millis>
+  <nanos>813800</nanos>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:33.927813800Z</date>
+  <millis>1641278073927</millis>
+  <nanos>813800</nanos>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:33.927813800Z</date>
+  <millis>1641278073927</millis>
+  <nanos>813800</nanos>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:34.336968600Z</date>
+  <millis>1641278074336</millis>
+  <nanos>968600</nanos>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:34.352593700Z</date>
+  <millis>1641278074352</millis>
+  <nanos>593700</nanos>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>found COM1</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:34.352593700Z</date>
+  <millis>1641278074352</millis>
+  <nanos>593700</nanos>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>found last saved serial port COM5</message>
+</record>
+<record>
+  <date>2022-01-04T06:34:34.352593700Z</date>
+  <millis>1641278074352</millis>
+  <nanos>593700</nanos>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2022-01-04T06:38:17.510486Z</date>
+  <millis>1641278297510</millis>
+  <nanos>486000</nanos>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2022-01-04T06:38:17.510486Z</date>
+  <millis>1641278297510</millis>
+  <nanos>486000</nanos>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>File close: Success.</message>
+</record>
+</log>

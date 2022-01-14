@@ -1,0 +1,29 @@
+######2021-12-31######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM3) USB-SERIAL CH340 (Port_#0006.Hub_#0006)
+Baud rate: 115200
+######POST FLASH######
+Unit name: Wootangx3
+Unit number: 1
+Admin password: 21436587
+WiFi SSID 1: TP-LINK
+WiFi password 1: 214365Qq
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.4.1
+######POST FLASH######
+[2021-12-31 02:47:16] Sending SERIAL: "..."
+[2021-12-31 02:47:25] Sending SERIAL: " Name Wootangx3 "
+[2021-12-31 02:47:29] Sending SERIAL: " Unit 1 "
+[2021-12-31 02:47:32] Sending SERIAL: " Password 21436587 "
+[2021-12-31 02:47:35] Sending SERIAL: " WifiSSID TP-LINK "
+[2021-12-31 02:47:39] Sending SERIAL: " WifiKey 214365Qq "
+[2021-12-31 02:47:42] Sending SERIAL: " ip 192.168.4.1 "
+[2021-12-31 02:47:45] Sending SERIAL: " gateway 192.168.4.1 "
+[2021-12-31 02:47:48] Sending SERIAL: " dns 8.8.8.8 "
+[2021-12-31 02:47:52] Sending SERIAL: " subnet 255.255.255.0 "
+[2021-12-31 02:47:55] Sending SERIAL: "Save"
+############################
+[2021-12-31 02:47:58] JOB COMPLETED, over and out!

@@ -1,0 +1,97 @@
+######2021-12-31######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESPEasy_2step_UploaderMega_1024.bin
+COM port: (COM3) USB-SERIAL CH340 (Port_#0006.Hub_#0006)
+Baud rate: 115200
+######POST FLASH######
+Unit name: Wootangx3
+Unit number: 1
+Admin password: 21436587
+WiFi SSID 1: TP-LINK
+WiFi password 1: 214365Qq
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.4.1
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM3 -ca 0x00000 -cf "D:\1111111111\ESPEasy_ESP82xx_mega-20211224\bin\ESPEasy_2step_UploaderMega_1024.bin"]
+[31.12.2021 2:48:57] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[31.12.2021 2:48:57] 	setting board to nodemcu
+[31.12.2021 2:48:57] 	setting baudrate from 115200 to 115200
+[31.12.2021 2:48:57] 	setting port from  to COM3
+[31.12.2021 2:48:57] 	setting address from 0x00000000 to 0x00000000
+[31.12.2021 2:48:57] 	espcomm_upload_file
+[31.12.2021 2:48:57] 	espcomm_upload_mem
+[31.12.2021 2:48:57] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:48:57] opening bootloader
+[31.12.2021 2:48:57] resetting board
+[31.12.2021 2:48:57] trying to connect
+[31.12.2021 2:48:57] 	flush start
+[31.12.2021 2:48:57] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:48:57] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:48:57] 	flush complete
+[31.12.2021 2:48:57] 	espcomm_send_command: sending command header
+[31.12.2021 2:48:57] 	espcomm_send_command: sending command payload
+[31.12.2021 2:48:57] 	read 0, requested 1
+[31.12.2021 2:48:57] trying to connect
+[31.12.2021 2:48:57] 	flush start
+[31.12.2021 2:48:57] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:48:57] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:48:57] 	flush complete
+[31.12.2021 2:48:57] 	espcomm_send_command: sending command header
+[31.12.2021 2:48:57] 	espcomm_send_command: sending command payload
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] Uploading 276848 bytes from D:\1111111111\ESPEasy_ESP82xx_mega-20211224\bin\ESPEasy_2step_UploaderMega_1024.bin to flash at 0x00000000
+[31.12.2021 2:48:57] 	erasing flash
+[31.12.2021 2:48:57] 	size: 043970 address: 000000
+[31.12.2021 2:48:57] 	first_sector_index: 0
+[31.12.2021 2:48:57] 	total_sector_count: 68
+[31.12.2021 2:48:57] 	head_sector_count: 16
+[31.12.2021 2:48:57] 	adjusted_sector_count: 52
+[31.12.2021 2:48:57] 	erase_size: 034000
+[31.12.2021 2:48:57] 	espcomm_send_command: sending command header
+[31.12.2021 2:48:57] 	espcomm_send_command: sending command payload
+[31.12.2021 2:48:57] 	setting serial port timeouts to 15000 ms
+[31.12.2021 2:48:57] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:48:57] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:48:57] 	writing flash
+[31.12.2021 2:49:06] ................................................................................ [ 29% ]
+[31.12.2021 2:49:14] ................................................................................ [ 59% ]
+[31.12.2021 2:49:23] ................................................................................ [ 88% ]
+[31.12.2021 2:49:26] ...............................                                                  [ 100% ]
+[31.12.2021 2:49:26] starting app without reboot
+[31.12.2021 2:49:26] 	espcomm_send_command: sending command header
+[31.12.2021 2:49:26] 	espcomm_send_command: sending command payload
+[31.12.2021 2:49:26] 	espcomm_send_command: receiving 2 bytes of data
+[31.12.2021 2:49:26] closing bootloader
+[31.12.2021 2:49:26] 	flush start
+[31.12.2021 2:49:26] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:49:26] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:49:26] 	flush complete
+[2021-12-31 02:49:27] DONE!
+[2021-12-31 02:49:27] Waiting for user input (reset the unit).
+[2021-12-31 02:49:30] Proceeding...
+######POST FLASH######
+[2021-12-31 02:49:31] Sending SERIAL: "..."
+[2021-12-31 02:49:34] Sending SERIAL: " Name Wootangx3 "
+[2021-12-31 02:50:21] Sending SERIAL: " Unit 1 "
+[2021-12-31 02:50:26] Sending SERIAL: " Password 21436587 "
+[2021-12-31 02:50:30] Sending SERIAL: " WifiSSID TP-LINK "
+[2021-12-31 02:50:33] Sending SERIAL: " WifiKey 214365Qq "
+[2021-12-31 02:50:37] Sending SERIAL: " ip 192.168.4.1 "
+[2021-12-31 02:50:41] Sending SERIAL: " gateway 192.168.4.1 "
+[2021-12-31 02:50:45] Sending SERIAL: " dns 8.8.8.8 "
+[2021-12-31 02:50:55] Sending SERIAL: " subnet 255.255.255.0 "
+[2021-12-31 02:50:59] Sending SERIAL: "Save"
+[2021-12-31 02:51:09] Sending SERIAL: "WifiConnect"
+[2021-12-31 02:51:09] Serial programming done.
+[2021-12-31 02:52:47] ERROR: Unit do not have an IP address.
+############################
+[2021-12-31 02:52:47] JOB COMPLETED, over and out!

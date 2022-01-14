@@ -1,0 +1,107 @@
+######2021-12-31######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESPEasy_2step_UploaderMega_1024.bin
+COM port: (COM3) USB-SERIAL CH340 (Port_#0006.Hub_#0006)
+Baud rate: 115200
+! FORCED DOUT ENABLED !
+######POST FLASH######
+Unit name: Wootangx3
+Unit number: 1
+Admin password: 21436587
+WiFi SSID 1: TP-LINK
+WiFi password 1: 214365Qq
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.4.1
+######FLASH LOG######
+[esptool.exe -vv -bm dout -cd nodemcu -cb 115200 -cp COM3 -ca 0x00000 -cf "D:\1111111111\ESPEasy_ESP82xx_mega-20211224\bin\ESPEasy_2step_UploaderMega_1024.bin"]
+[31.12.2021 2:54:27] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[31.12.2021 2:54:27] setting flash mode from qio to dout
+[31.12.2021 2:54:27] 	setting board to nodemcu
+[31.12.2021 2:54:27] 	setting baudrate from 115200 to 115200
+[31.12.2021 2:54:27] 	setting port from  to COM3
+[31.12.2021 2:54:27] 	setting address from 0x00000000 to 0x00000000
+[31.12.2021 2:54:27] 	espcomm_upload_file
+[31.12.2021 2:54:27] 	espcomm_upload_mem
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] opening bootloader
+[31.12.2021 2:54:27] resetting board
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] resetting board
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] resetting board
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] trying to connect
+[31.12.2021 2:54:27] 	flush start
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1 ms
+[31.12.2021 2:54:27] 	setting serial port timeouts to 1000 ms
+[31.12.2021 2:54:27] 	flush complete
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command header
+[31.12.2021 2:54:27] 	espcomm_send_command: sending command payload
+[31.12.2021 2:54:27] 	read 0, requested 1
+[31.12.2021 2:54:27] warning: espcomm_sync failed
+[31.12.2021 2:54:27] error: espcomm_open failed
+[31.12.2021 2:54:27] error: espcomm_upload_mem failed
+[2021-12-31 02:54:27] STOPPED due to 2 errors! (try reset on the unit, then start a new flash attempt)

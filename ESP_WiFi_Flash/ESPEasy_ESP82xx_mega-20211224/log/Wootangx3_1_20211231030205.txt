@@ -1,0 +1,19 @@
+######2021-12-31######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM3) USB-SERIAL CH340 (Port_#0006.Hub_#0006)
+Baud rate: 115200
+! FORCED DOUT ENABLED !
+######POST FLASH######
+Unit name: Wootangx3
+Unit number: 1
+Admin password: 21436587
+WiFi SSID 1: TP-LINK
+WiFi password 1: 214365Qq
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.4.10
+######POST FLASH######
+############################
+[2021-12-31 03:02:06] JOB COMPLETED, over and out!

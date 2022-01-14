@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-31T02:00:00.654269500Z</date>
+  <millis>1640916000654</millis>
+  <nanos>269500</nanos>
+  <sequence>5</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:00.669895700Z</date>
+  <millis>1640916000669</millis>
+  <nanos>895700</nanos>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:00.669895700Z</date>
+  <millis>1640916000669</millis>
+  <nanos>895700</nanos>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:00.716772200Z</date>
+  <millis>1640916000716</millis>
+  <nanos>772200</nanos>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:00.732396800Z</date>
+  <millis>1640916000732</millis>
+  <nanos>396800</nanos>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:00.732396800Z</date>
+  <millis>1640916000732</millis>
+  <nanos>396800</nanos>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:00.732396800Z</date>
+  <millis>1640916000732</millis>
+  <nanos>396800</nanos>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:01.185517800Z</date>
+  <millis>1640916001185</millis>
+  <nanos>517800</nanos>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:01.201143100Z</date>
+  <millis>1640916001201</millis>
+  <nanos>143100</nanos>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>found COM1</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:01.201143100Z</date>
+  <millis>1640916001201</millis>
+  <nanos>143100</nanos>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>found last saved serial port COM4</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:01.201143100Z</date>
+  <millis>1640916001201</millis>
+  <nanos>143100</nanos>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:04.823471900Z</date>
+  <millis>1640916004823</millis>
+  <nanos>471900</nanos>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Serial port COM4 save as default.</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:04.823471900Z</date>
+  <millis>1640916004823</millis>
+  <nanos>471900</nanos>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2021-12-31T02:00:04.839097200Z</date>
+  <millis>1640916004839</millis>
+  <nanos>97200</nanos>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>28</thread>
+  <message>Try to open port COM4, baud 115200, 8N1</message>
+</record>

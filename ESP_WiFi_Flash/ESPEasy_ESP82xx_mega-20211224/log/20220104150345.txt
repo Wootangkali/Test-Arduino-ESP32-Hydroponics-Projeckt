@@ -1,0 +1,24 @@
+######2022-01-04######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: Programming only...
+COM port: (COM5) Silicon Labs CP210x USB to UART Bridge (Port_#0003.Hub_#0006)
+Baud rate: 115200
+######POST FLASH######
+Unit name: 
+Unit number: 
+Admin password: 
+WiFi SSID 1: 
+WiFi password 1: 
+WiFi SSID 2: 
+WiFi password 2: 
+IP: 192.168.0.123
+######POST FLASH######
+[2022-01-04 15:03:47] Sending SERIAL: "..."
+[2022-01-04 15:03:49] Sending SERIAL: " ip 192.168.0.123 "
+[2022-01-04 15:03:51] Sending SERIAL: " gateway 192.168.0.1 "
+[2022-01-04 15:03:52] Sending SERIAL: " dns 8.8.8.8 "
+[2022-01-04 15:03:54] Sending SERIAL: " subnet 255.255.255.0 "
+[2022-01-04 15:03:56] Sending SERIAL: "Save"
+############################
+[2022-01-04 15:03:57] JOB COMPLETED, over and out!
