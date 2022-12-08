@@ -3,7 +3,7 @@ argh==0.26.2
 Babel==2.9.1
 bottle==0.12.19
 cached-property==1.5.2   
-certifi==2021.10.8       
+certifi==2022.12.7       
 cffi==1.15.0
 chardet==4.0.0
 click==8.0.3
